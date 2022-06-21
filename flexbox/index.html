@@ -43,35 +43,120 @@
             flex-direction: column;
             background-color: crimson;
         }
+
+        .nowrap{
+            flex-wrap: nowrap;
+        }
+        .nowrap .item{
+            background-color: blueviolet;
+        }
+        .wrap{
+            flex-wrap: wrap;
+
+        }
+        .wrap .item{
+            background-color: deeppink;
+        }
+        .wrap-reverse{
+            flex-wrap: wrap-reverse;
+        }
+        .wrap-reverse .item{
+            background-color:yellow;
+        }
     </style>
 </head>
 <body>
     <div class="flex">
+        <div>
+            <p>Basic flex</p>
+        </div>
             <div class="item">1</div>
             <div class="item">2</div>
             <div class="item">3</div>
-            <div class="item">3</div>
+            <div class="item">4</div>
             <div class="item">5</div>
+            
+    </div>
+    <div class="flex nowrap">
+        <div>
+            <p>Flex wrap
+                <br>nowrap
+            </p>
+        </div>
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            
+    </div>
+    <div class="flex wrap">
+        <div>
+            <p>Flex wrap
+                <br>
+            </p>
+        </div>
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            
+    </div>
+    <div class="flex wrap-reverse">
+        <div>
+            <p>Flex wrap
+                <br>reverse
+            </p>
+        </div>
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            
     </div>
     <div class="flex row-reverse">
+        <div>
+            <p>
+                Flex direction 
+               <br>reverse
+            </p>
+        </div>
         <div class="item">1</div>
         <div class="item">2</div>
         <div class="item">3</div>
-        <div class="item">3</div>
+        <div class="item">4</div>
         <div class="item">5</div>
     </div>
     <div class="flex column">
+        <div>
+            <p>
+                Flex direction 
+               <br>column
+            </p>
+        </div>
         <div class="item">1</div>
         <div class="item">2</div>
         <div class="item">3</div>
-        <div class="item">3</div>
+        <div class="item">4</div>
         <div class="item">5</div>
     </div>
     <div class="flex column-reverse">
+        <div>
+            <p>
+                Flex direction 
+               <br>column reverse
+            </p>
+        </div>
         <div class="item">1</div>
         <div class="item">2</div>
         <div class="item">3</div>
-        <div class="item">3</div>
+        <div class="item">4</div>
         <div class="item">5</div>
     </div>
 </body>
